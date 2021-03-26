@@ -30,8 +30,8 @@ public class Tutor {
         this.remote = remote;
     }
     public Tutor(String first_name, String last_name, String email, String phone, String subject) {
-        super();
-        Tutor(first_name, last_name, email, phone, subject, null);
+
+        this(first_name, last_name, email, phone, subject, false);
 
     }
 }
